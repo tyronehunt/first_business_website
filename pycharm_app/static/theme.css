@@ -42,7 +42,7 @@ p {
 }
 .starter-template .content .lead {
   font-size: 25px;
-  color: #f2b7bd;
+  color: #6000f2;
 }
 .starter-template .content .lead .font-normal {
   color: #ffffff;
@@ -69,11 +69,11 @@ p {
   margin-right: 0;
 }
 .starter-template .links ul li.current-version {
-  color: #f2b7bd;
+  color: #4200c7;
   font-weight: 400;
 }
 .starter-template .links ul li a, a {
-  color: #f2b7bd;
+  color: #4200c7;
   text-decoration: underline;
 }
 .starter-template .links ul li a:hover, a:hover {

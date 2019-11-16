@@ -20,7 +20,7 @@ body {
 
 /*********** BOX DEMO ****************/
 .outside {
-    background: gray;
+    background: #805c74;
     text-align: center;
     border: 1px solid gray;
 }

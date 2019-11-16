@@ -12,9 +12,12 @@ li {
     display: inline-block;
     padding: 5px;
     padding-right: 10px;
+    background-color: #525050;
 }
 
-li a, li a:visited {
+li a,
+
+li a:visited {
     color: #aaa;
 }
 
