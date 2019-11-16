@@ -11,8 +11,11 @@ def main(global_config, **settings):
     config.add_static_view('static', 'static', cache_max_age=3600)
 
     # Set up the template folder routes
-    config.add_route('home', '/')
+    config.add_route('index', '/')
+    config.add_route('box', '/box-model')
+    config.add_route('selectors', '/selectors')
     config.add_route('layout', '/layout')
+    config.add_route('float', '/float')
 
     # Reference other integrations
     cfg_settings = config.get_settings()

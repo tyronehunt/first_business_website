@@ -2,21 +2,34 @@ from pyramid.view import view_config
 import pycharm_app.static_cache
 
 
-@view_config(route_name='home', renderer='templates/mytemplate.pt')
-def my_view(request):
-    return extend_model({'project': 'pycharm_app'})
-
-
-def index(request):
+@view_config(route_name='index', renderer='templates/index.pt')
+def index(_):
     albums = [
         {'has_preview': True, 'title': 'song_name_here', 'url': 'album/123'},
         {'has_preview': False, 'title': 'song_name_here2', 'url': 'album/124'}
     ]
-    return {'albums': albums}
+    return extend_model({'project': 'pycharm_app',
+                         'albums': albums
+                         })
+
+
+@view_config(route_name='box', renderer='templates/box_model.pt')
+def box_model(_):
+    return extend_model({})
+
+
+@view_config(route_name='selectors', renderer='templates/selectors.pt')
+def selectors(_):
+    return extend_model({})
 
 
 @view_config(route_name='layout', renderer='templates/layout.pt')
-def layout(request):
+def layout(_):
+    return extend_model({})
+
+
+@view_config(route_name='float', renderer='templates/float.pt')
+def float_(_):
     return extend_model({})
 
 
@@ -35,6 +48,7 @@ def layout(request):
 #             'msg': 'Check your email for reset code'
 #            }
 
+
 def extend_model(model_dict):
-    model_dict['build_cache_id'] = pycharm_app.static_cache.build_cache_id
+    model_dict['build_cache_id'] = pycharm_app.utils.build_cache_id
     return model_dict
