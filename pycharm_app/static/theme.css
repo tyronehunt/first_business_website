@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #4f4751;
+  color: #000000;
   background: rgba(113, 0, 188, 0.55);
 }
 h1,
@@ -38,7 +38,7 @@ p {
 }
 .starter-template .content h1 .smaller {
   font-size: 40px;
-  color: #f2b7bd;
+  color: #110f29;
 }
 .starter-template .content .lead {
   font-size: 25px;

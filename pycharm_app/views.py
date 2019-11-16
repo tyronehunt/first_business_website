@@ -50,5 +50,5 @@ def float_(_):
 
 
 def extend_model(model_dict):
-    model_dict['build_cache_id'] = pycharm_app.utils.build_cache_id
+    model_dict['build_cache_id'] = pycharm_app.static_cache.build_cache_id
     return model_dict
