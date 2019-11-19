@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755ff494-21e0-4c09-8832-0e9d6e52a309" name="Default Changelist" comment="">
+    <list default="true" id="755ff494-21e0-4c09-8832-0e9d6e52a309" name="Default Changelist" comment="Copying javascript elements over from python for entrepreneurs tutorial">
+      <change afterPath="$PROJECT_DIR$/pycharm_app/x_archive/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycharm_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/controllers/home_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/controllers/home_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/static_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/infrastructure/static_cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/home/about.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/home/about.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/home/index.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/home/index.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,26 +29,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TNOLAl3UblaBh9WgZOWiNunbkW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pycharm_app/templates/home" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pycharm_app/controller" />
-      <recent name="$PROJECT_DIR$/pycharm_app/controllers" />
-      <recent name="$PROJECT_DIR$/pycharm_app/views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pycharm_app/templates/home" />
       <recent name="$PROJECT_DIR$/pycharm_app/static" />
       <recent name="$PROJECT_DIR$/pycharm_app/templates" />
       <recent name="$PROJECT_DIR$/pycharm_app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pycharm_app/infrastructure" />
+      <recent name="$PROJECT_DIR$/pycharm_app/x_archive" />
+      <recent name="$PROJECT_DIR$/pycharm_app/controller" />
+      <recent name="$PROJECT_DIR$/pycharm_app/controllers" />
+      <recent name="$PROJECT_DIR$/pycharm_app/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,7 +129,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharm_app/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharm_app/x_archive/views.py" />
       <option name="PARAMETERS" value="$PROJECT_DIR$/development.ini" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +224,8 @@
       <workItem from="1573825080642" duration="266000" />
       <workItem from="1573836462219" duration="1652000" />
       <workItem from="1573903880842" duration="17601000" />
-      <workItem from="1574112725002" duration="3054000" />
+      <workItem from="1574112725002" duration="3168000" />
+      <workItem from="1574194351304" duration="6240000" />
     </task>
     <task id="LOCAL-00001" summary="Copying javascript elements over from python for entrepreneurs tutorial">
       <created>1573929906914</created>
@@ -249,7 +261,7 @@
     <SUITE FILE_PATH="coverage/first_business_website$web.coverage" NAME="web Coverage Results" MODIFIED="1573307381687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$first_business_config.coverage" NAME="web (dev) Coverage Results" MODIFIED="1573506351255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$views.coverage" NAME="views Coverage Results" MODIFIED="1573671336271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycharm_app" />
-    <SUITE FILE_PATH="coverage/first_business_website$web__dev_.coverage" NAME="web (dev) Coverage Results" MODIFIED="1574117484097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/first_business_website$web__dev_.coverage" NAME="web (dev) Coverage Results" MODIFIED="1574200560874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/my_pycharm_app$web.coverage" NAME="web Coverage Results" MODIFIED="1573304604089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$utils.coverage" NAME="utils Coverage Results" MODIFIED="1573645510365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycharm_app" />
     <SUITE FILE_PATH="coverage/first_business_website$web__production_.coverage" NAME="web (production) Coverage Results" MODIFIED="1573924712989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
