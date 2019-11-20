@@ -16,6 +16,7 @@ class HomeController(BaseController):
     def contact(self):
         return {'value': 'CONTACT'}
 
+
     @suppress
     def dont_expose_web_action(self):
         print("Called don't expose as web action, what happened")
