@@ -3,27 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="755ff494-21e0-4c09-8832-0e9d6e52a309" name="Default Changelist" comment="Copying javascript elements over from python for entrepreneurs tutorial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/controllers/albums_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/controllers/albums_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/controllers/base_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/controllers/base_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycharm_app/controllers/home_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/controllers/home_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/infrastructure/supressor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/float.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/float.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/img/pyramid.png" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/static/img/pyramid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/pyramid-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/pyramid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/sample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/static/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/static/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/static/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/box_model.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/box_model.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/float.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/float.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/infrastructure/static_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/infrastructure/static_cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/static/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/static/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/static/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/account/index.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/account/index.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/albums/index.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/albums/index.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycharm_app/templates/home/about.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/home/about.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycharm_app/templates/home/contact.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/home/contact.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycharm_app/templates/home/index.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/home/index.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/index.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/index.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/shared/layout.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/selectors.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/x_archive/selectors.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/x_archive/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharm_app/templates/shared/layout.pt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,6 +231,8 @@
       <workItem from="1574112725002" duration="3168000" />
       <workItem from="1574194351304" duration="6783000" />
       <workItem from="1574285567457" duration="5765000" />
+      <workItem from="1574291625113" duration="82000" />
+      <workItem from="1574427612358" duration="8115000" />
     </task>
     <task id="LOCAL-00001" summary="Copying javascript elements over from python for entrepreneurs tutorial">
       <created>1573929906914</created>
@@ -276,7 +268,7 @@
     <SUITE FILE_PATH="coverage/first_business_website$web.coverage" NAME="web Coverage Results" MODIFIED="1573307381687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$first_business_config.coverage" NAME="web (dev) Coverage Results" MODIFIED="1573506351255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$views.coverage" NAME="views Coverage Results" MODIFIED="1573671336271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycharm_app" />
-    <SUITE FILE_PATH="coverage/first_business_website$web__dev_.coverage" NAME="web (dev) Coverage Results" MODIFIED="1574291134652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/first_business_website$web__dev_.coverage" NAME="web (dev) Coverage Results" MODIFIED="1574437826850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/my_pycharm_app$web.coverage" NAME="web Coverage Results" MODIFIED="1573304604089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$utils.coverage" NAME="utils Coverage Results" MODIFIED="1573645510365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycharm_app" />
     <SUITE FILE_PATH="coverage/first_business_website$web__production_.coverage" NAME="web (production) Coverage Results" MODIFIED="1573924712989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

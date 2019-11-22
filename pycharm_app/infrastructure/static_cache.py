@@ -16,12 +16,13 @@
 
 import hashlib
 import os
+import pycharm_app
 
-__full_path = os.path.dirname(os.path.abspath(__file__))
+__full_path = os.path.dirname(os.path.abspath(pycharm_app.__file__))
 __hash_lookup = dict()
 
 # Set this to False in production, True in development
-recompute_caches_every_request = False
+recompute_caches_every_request = True
 enable_tracing = True
 
 

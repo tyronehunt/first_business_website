@@ -2,8 +2,8 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #000000;
-  background: rgba(113, 0, 188, 0.55);
+  color: #ffffff;
+  background: #bc2131;
 }
 h1,
 h2,
@@ -38,11 +38,11 @@ p {
 }
 .starter-template .content h1 .smaller {
   font-size: 40px;
-  color: #110f29;
+  color: #f2b7bd;
 }
 .starter-template .content .lead {
   font-size: 25px;
-  color: #6000f2;
+  color: #f2b7bd;
 }
 .starter-template .content .lead .font-normal {
   color: #ffffff;
@@ -69,15 +69,13 @@ p {
   margin-right: 0;
 }
 .starter-template .links ul li.current-version {
-  color: #4200c7;
+  color: #f2b7bd;
   font-weight: 400;
 }
-.starter-template .links ul li a, a {
-  color: #4200c7;
-  text-decoration: underline;
-}
-.starter-template .links ul li a:hover, a:hover {
+.starter-template .links ul li a {
   color: #ffffff;
+}
+.starter-template .links ul li a:hover {
   text-decoration: underline;
 }
 .starter-template .links ul li .icon-muted {
@@ -138,7 +136,7 @@ p {
   .starter-template .content .lead {
     font-size: 16px;
   }
-  .starter-template .links {
+  .starter-template .links { 
     margin-top: 40px;
   }
   .starter-template .links ul li {
