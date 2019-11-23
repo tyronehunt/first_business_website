@@ -19,6 +19,13 @@ class BaseController:
     def is_logged_in(self):
         return False
 
+    # noinspection PyMethodMayBeStatic
+    def redirect(self, to_url, permanent=False):
+        if permanent:
+            raise exc.HTTPMovedPermanently(to_url)
+        raise exc.HTTPFound(to_url)
+
+
     # @suppress
     # def dont_expose_web_action_base(self):
     #     print("Called don't expose as web action, what happened")

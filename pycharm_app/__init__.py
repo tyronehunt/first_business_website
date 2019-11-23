@@ -4,9 +4,7 @@ import pycharm_app.controllers.albums_controller as albums
 import pycharm_app.controllers.account_controller as account
 
 
-def main(global_config, **settings):
-    """ This function returns a Pyramid WSGI application.
-    """
+def main(_, **settings):
     config = Configurator(settings=settings)
 
     init_includes(config)
