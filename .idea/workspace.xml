@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="755ff494-21e0-4c09-8832-0e9d6e52a309" name="Default Changelist" comment="Copying javascript elements over from python for entrepreneurs tutorial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/controllers/account_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/controllers/account_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycharm_app/controllers/base_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/controllers/base_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycharm_app/templates/shared/_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/pycharm_app/templates/shared/_layout.pt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -227,7 +224,10 @@
       <workItem from="1574291625113" duration="82000" />
       <workItem from="1574427612358" duration="11186000" />
       <workItem from="1574500475646" duration="175000" />
-      <workItem from="1574538226100" duration="5668000" />
+      <workItem from="1574538226100" duration="5719000" />
+      <workItem from="1574620546315" duration="1085000" />
+      <workItem from="1574673324776" duration="117000" />
+      <workItem from="1574718769503" duration="2956000" />
     </task>
     <task id="LOCAL-00001" summary="Copying javascript elements over from python for entrepreneurs tutorial">
       <created>1573929906914</created>
@@ -263,7 +263,7 @@
     <SUITE FILE_PATH="coverage/first_business_website$web.coverage" NAME="web Coverage Results" MODIFIED="1573307381687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$first_business_config.coverage" NAME="web (dev) Coverage Results" MODIFIED="1573506351255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$views.coverage" NAME="views Coverage Results" MODIFIED="1573671336271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycharm_app" />
-    <SUITE FILE_PATH="coverage/first_business_website$web__dev_.coverage" NAME="web (dev) Coverage Results" MODIFIED="1574544491356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/first_business_website$web__dev_.coverage" NAME="web (dev) Coverage Results" MODIFIED="1574724058185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/my_pycharm_app$web.coverage" NAME="web Coverage Results" MODIFIED="1573304604089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_business_website$utils.coverage" NAME="utils Coverage Results" MODIFIED="1573645510365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycharm_app" />
     <SUITE FILE_PATH="coverage/first_business_website$web__production_.coverage" NAME="web (production) Coverage Results" MODIFIED="1573924712989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
