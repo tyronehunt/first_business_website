@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<!--suppress ALL -->
 <html lang="en-us" metal:define-macro="layout">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tyrone">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
     <link rel="shortcut icon"
           href="/static/img/pyramid.png?cacheId=${view.build_cache_id('/static/img/pyramid.png')}">
 
-    <title>Starter Scaffold for The Pyramid Web Framework</title>
+    <title>First Business Website</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/static/bower_components/bootstrap-css/css/bootstrap.min.css?cacheId=${view.build_cache_id('/static/bower_components/bootstrap-css/css/bootstrap.min.css')}'"
@@ -24,25 +22,17 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this scaffold -->
-    <link href="/static/css/agency.css?cacheId=${view.build_cache_id('/static/css/agency.css')}" rel="stylesheet">
-    <link href="/static/css/theme.css?cacheId=${view.build_cache_id('/static/css/theme.css')}" rel="stylesheet">
-    <link href="/static/css/site.css?cacheId=${view.build_cache_id('/static/css/site.css')}" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="/static/bower_components/html5shiv/dist/html5shiv.min.js?cacheId=${view.build_cache_id('/static/bower_components/html5shiv/dist/html5shiv.min.js')}"></script>
-    <script src="/static/bower_components/respond/dest/respond.min.js?cacheId=${view.build_cache_id('/static/bower_components/respond/dest/respond.min.js')}"></script>
-    <![endif]-->
+     <link href="/static/css/agency.css?cacheId=${view.build_cache_id('/static/css/agency.css')}" rel="stylesheet">
 
     <div metal:define-slot="additional_css"></div>
 </head>
 
-<body>
+<body id="page-top">
 
  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="/">Welcome</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -50,28 +40,24 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/home/index">home</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/albums">albums</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/home/contact">contact</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/home/about">about</a>
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/account/register">register</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-<div class="main_content">
-    <div metal:define-slot="main_content"></div>
-</div>
 
  <!-- Header -->
   <header class="masthead">
@@ -83,6 +69,10 @@
       </div>
     </div>
   </header>
+
+ <div class="main_content">
+    <div metal:define-slot="main_content"></div>
+ </div>
 
   <!-- Services -->
   <section class="page-section" id="services">
@@ -716,7 +706,18 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="/static/bower_components/jquery/dist/jquery.min.js?cacheId=${view.build_cache_id('/static/bower_components/jquery/dist/jquery.min.js')}"></script>
 <script src="/static/bower_components/bootstrap-css/js/bootstrap.min.js?cacheId=${view.build_cache_id('/static/bower_components/bootstrap-css/js/bootstrap.min.js')}"></script>
-<div metal:define-slot="additional_js"></div>
+
+ <!-- Plugin JavaScript -->
+  <script src="/static/bower_components/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="/static/js/jqBootstrapValidation.js"></script>
+  <script src="/static/js/contact_me.js"></script>
+
+   <!-- Custom scripts for this template -->
+  <script src="/static/js/agency.min.js"></script>
+
+ <div metal:define-slot="additional_js"></div>
 
 </body>
 </html>
