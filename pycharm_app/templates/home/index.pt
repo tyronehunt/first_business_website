@@ -1,12 +1,149 @@
 <div metal:use-macro="view.layout">
-    <div metal:fill-slot="addtional_css">
-        <!-- Added by index.pt -->
-    </div>
-
     <div metal:fill-slot="main_content">
-        <h1>Home page</h1>
-        <div>The value from the controller is ${value}.</div>
+
+        <!-- Header -->
+        <a name="about"></a>
+        <div class="jumbotron">
+
+            <div id="hero-message">
+                <h1>Hair styling for where you are</h1>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="/styles" role="button">Styles</a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Availability</a>
+                </p>
+                <p class="subtitle">Book your next appointment today</p>
+            </div>
+
+        </div>
+        <!-- /.intro-header -->
+
+        <!-- Page Content -->
+
+        <a name="newsletter"></a>
+        <div class="content-section-a ${view.alternate_row_style()}">
+
+            <div class="container">
+                <div class="row">
+                    <form id="newsletter" action="/newsletter/add_subscriber" method="POST">
+                        <input class="form-control"
+                               type="email"
+                               name="email"
+                               required
+                               placeholder=" Enter your email for offers (no spam we promise!)"/>
+                        <button style="background-color:#d94fce" type="submit" class="form-control btn btn-danger"
+                        >Get notified
+                        </button>
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+
+        <a name="upcoming"></a>
+        <div class="content-section-a  ${view.alternate_row_style()}">
+
+            <div class="container">
+                <div class="row upcoming">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3 img-section">
+<!--?                placeholder-->
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2>Location</h2>
+                            <ul class="">
+                                <li>Based in ...</li>
+                                <li>Available ...</li>
+                                <li>...</li>
+                                <li>...</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+
+        <a name="band"></a>
+        <div class="content-section-a  ${view.alternate_row_style()}">
+
+            <div class="container">
+                <div class="row band">
+                    <h3>About</h3>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-2 band-members">
+                        <img src="/static/img/theme/team/1.jpg"
+                             class="img img-circle img-responsive"/>
+                        <span>Dave Wilson</span>
+                    </div>
+                    <div class="col-sm-2 band-members">
+                        <img src="/static/img/theme/team/2.jpg" class="img img-circle img-responsive"/>
+                        <span>Mark Spencer</span>
+                    </div>
+                    <div class="col-sm-2 band-members">
+                        <img src="/static/img/theme/team/3.jpg" class="img img-circle img-responsive"/>
+                        <span>Rags</span>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+
+        <a name="bookus"></a>
+        <div class="content-section-a  ${view.alternate_row_style()} bookus">
+
+            <div class="container">
+                <div class="row band">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div class="content">
+                            <h2>Book now</h2>
+                            <p class="lead">
+                                We love to travel and visit new clients
+                                and cater for all tastes and styles.<br>
+                                <br>
+                                So what are you waiting for <a href="/home/book_us">get in touch</a> and treat yourself.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 img-section">
+                        <a href="/home/book_us"><img src="/static/img/calendar.jpg"
+                                                     class="img img-responsive"/></a>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+
+
     </div>
 
-
+    <div metal:fill-slot="additional_css">
+        <link href="/static/css/home.css?cacheId=${view.build_cache_id('/static/css/home.css')}" rel="stylesheet">
+    </div>
 </div>
