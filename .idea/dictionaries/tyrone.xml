@@ -2,6 +2,7 @@
   <dictionary name="tyrone">
     <words>
       <w>mytemplate</w>
+      <w>tablename</w>
     </words>
   </dictionary>
 </component>

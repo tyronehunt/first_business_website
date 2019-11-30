@@ -41,6 +41,8 @@ form#newsletter input.form-control {
 form#newsletter button.form-control {
     max-width: 120px;
     margin-left: 5px;
+    background-color: #d94fce;
+    border-color: transparent;
 }
 
 .band {

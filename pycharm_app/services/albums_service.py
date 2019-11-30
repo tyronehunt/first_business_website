@@ -1,6 +1,22 @@
+from pycharm_app.data.album import Album
+from pycharm_app.data.dbsession import DbSessionFactory
+
+
 class AlbumsService:
     @staticmethod
     def get_albums():
+        session = DbSessionFactory.create_session()
+
+        albums = session.query(Album)\
+            .filter(Album.is_published)\
+            .order_by(Album.year.desc())\
+            .all()
+
+        return albums
+
+
+    @staticmethod
+    def old_get_albums():
         return [
             {
                 'title': 'Digital age boys and girls',

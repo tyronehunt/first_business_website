@@ -14,7 +14,7 @@ body {
 }
 
 .nav a {
-    color: white;
+    color: #000;
     margin: 10px;
 }
 
@@ -22,9 +22,13 @@ body {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: #d94fce;
+}
+
 .navbar-inverse {
     background-color: #000;
-    border-color: #080808;
+    border-color: #d94fce;
 }
 
 .account-nav {

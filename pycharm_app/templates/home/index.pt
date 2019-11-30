@@ -6,12 +6,13 @@
         <div class="jumbotron">
 
             <div id="hero-message">
-                <h1>Hair styling for where you are</h1>
+                <h1>Hair styling wherever you are</h1>
+                <p class="subtitle"><br>Book your next appointment today</p><br>
                 <p>
                     <a class="btn btn-primary btn-lg" href="/styles" role="button">Styles</a>
                     <a class="btn btn-primary btn-lg" href="#" role="button">Availability</a>
                 </p>
-                <p class="subtitle">Book your next appointment today</p>
+
             </div>
 
         </div>
@@ -30,7 +31,7 @@
                                name="email"
                                required
                                placeholder=" Enter your email for offers (no spam we promise!)"/>
-                        <button style="background-color:#d94fce" type="submit" class="form-control btn btn-danger"
+                        <button type="submit" class="form-control btn btn-danger"
                         >Get notified
                         </button>
                     </form>
