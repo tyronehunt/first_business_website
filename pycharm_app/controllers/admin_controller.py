@@ -32,4 +32,4 @@ class AdminController(BaseController):
         print("Created a new album with id {}".format(new_album.id))
 
         # redirect
-        self.redirect('/styles')
+        self.redirect('/albums')

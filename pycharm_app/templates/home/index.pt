@@ -9,7 +9,7 @@
                 <h1>Hair styling wherever you are</h1>
                 <p class="subtitle"><br>Book your next appointment today</p><br>
                 <p>
-                    <a class="btn btn-primary btn-lg" href="/styles" role="button">Styles</a>
+                    <a class="btn btn-primary btn-lg" href="/albums" role="button">Styles</a>
                     <a class="btn btn-primary btn-lg" href="#" role="button">Availability</a>
                 </p>
 

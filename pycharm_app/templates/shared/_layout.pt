@@ -59,7 +59,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/styles">styles</a>
+                    <a href="/albums">styles</a>
                 </li>
                 <li>
                     <a href="/home/book_us">book</a>

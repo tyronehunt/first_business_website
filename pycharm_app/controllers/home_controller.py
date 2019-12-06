@@ -34,3 +34,5 @@ class HomeController(BaseController):
             return "alternate"
         else:
             return ""
+
+

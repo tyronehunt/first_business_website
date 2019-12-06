@@ -1,8 +1,6 @@
 import sqlalchemy
 import sqlalchemy.orm
 from pycharm_app.data.modelbase import SqlAlchemyBase
-
-# IMPORT DATA LINK
 # noinspection PyUnresolvedReferences
 import pycharm_app.data.album
 # noinspection PyUnresolvedReferences
@@ -27,8 +25,6 @@ class DbSessionFactory:
         SqlAlchemyBase.metadata.create_all(engine)
         DbSessionFactory.factory = sqlalchemy.orm.sessionmaker(bind=engine)
 
-    # Cosmetic way to call above orm.sessionmaker
     @staticmethod
     def create_session():
         return DbSessionFactory.factory()
-

@@ -1,6 +1,7 @@
 import sqlalchemy
 import sqlalchemy.orm
 from sqlalchemy.ext.orderinglist import ordering_list
+
 from pycharm_app.data.modelbase import SqlAlchemyBase
 
 
@@ -16,8 +17,7 @@ class Album(SqlAlchemyBase):
     has_preview = sqlalchemy.Column(sqlalchemy.Boolean, default=False)
     is_published = sqlalchemy.Column(sqlalchemy.Boolean, default=False)
 
-    tracks = sqlalchemy.orm.relation('Track', back_populates='album',
-                                     order_by='Track.display_order',
-                                     collection_class=ordering_list('display_order'),
-                                     cascade='all'
-                                     )
+    tracks = sqlalchemy.orm.relationship('Track', back_populates='album',
+                                         order_by='Track.display_order',
+                                         collection_class=ordering_list('display_order'),
+                                         cascade='all')

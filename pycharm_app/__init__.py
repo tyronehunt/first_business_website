@@ -32,7 +32,7 @@ def init_routing(config):
     config.add_handler('root', '/', handler=home.HomeController, action='index')
 
     add_controller_routes(config, home.HomeController, 'home')
-    add_controller_routes(config, albums.AlbumsController, 'styles')
+    add_controller_routes(config, albums.AlbumsController, 'albums')
     add_controller_routes(config, account.AccountController, 'account')
     add_controller_routes(config, admin.AdminController, 'admin')
 
